@@ -1,11 +1,14 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import svelteLogo from "./assets/svelte.svg";
+  import viteLogo from "/vite.svg";
+  import Counter from "./lib/Counter.svelte";
+  import TopDescription from "./lib/TopDescription.svelte";
+  import AboutTheSongs from "./lib/AboutTheSongs.svelte";
 </script>
 
 <main>
-  <div>
+  <TopDescription />
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
     </a>
@@ -20,16 +23,31 @@
   </div>
 
   <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
+    Check out <a
+      href="https://github.com/sveltejs/kit#readme"
+      target="_blank"
+      rel="noreferrer">SvelteKit</a
+    >, the official Svelte app framework powered by Vite!
   </p>
 
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+  <p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p> -->
+  <div class="songs">
+    <iframe
+      title="spotify"
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/playlist/7KcPJsVSVcQUZ1fCjpkLmw?utm_source=generator"
+      width="100%"
+      height="352"
+      frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+    <AboutTheSongs />
+  </div>
 </main>
 
 <style>
-  .logo {
+  /* .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
@@ -43,5 +61,14 @@
   }
   .read-the-docs {
     color: #888;
+  } */
+  .songs {
+    display: flex;
+    flex-direction: row;
+  }
+  iframe {
+    min-width: 700px;
+    width: 70%;
+    max-width: 900px;
   }
 </style>
