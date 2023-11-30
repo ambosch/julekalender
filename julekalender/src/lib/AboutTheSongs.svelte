@@ -14,7 +14,7 @@
   </h2>
   {#each Object.entries(descriptions) as [key_date, desc]}
     <div class="">
-      <SongDescCard day_nr={key_date}>{desc}</SongDescCard>
+      <SongDescCard day_nr={key_date}>{@html desc}</SongDescCard>
     </div>
   {/each}
 </div>
