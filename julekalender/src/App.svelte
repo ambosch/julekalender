@@ -40,7 +40,7 @@
       height="100%"
       title="spotify"
       style="border-radius:12px"
-      src="https://open.spotify.com/embed/playlist/7KcPJsVSVcQUZ1fCjpkLmw?utm_source=generator"
+      src="https://open.spotify.com/embed/playlist/37i9dQZF1DWV3RrjH1jDkx?utm_source=generator"
       frameBorder="0"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
