@@ -19,6 +19,17 @@
     med!
   </StyledP>
   <StyledP>Enjoy, hilsen fra Anne</StyledP>
+  <a
+    class="w-full flex justify-center"
+    href="https://github.com/ambosch/julekalender"
+    target="_blank"
+    title="Take me to the source code!"
+    ><img
+      class="w-6"
+      alt="Go to GitHub repo"
+      src="src/assets/github-mark.svg"
+    /></a
+  >
 </div>
 
 <style>
