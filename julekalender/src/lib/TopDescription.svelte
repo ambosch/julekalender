@@ -8,15 +8,15 @@
   >
     Anne sin julekalender 2023
   </h1>
-  <StyledP>
+  <StyledP className="text-justify">
     Hver dag fra 1. desember til og med 24. desember kommer det ut en ny sang i
     julekalenderen. Alle låtene henger sammen med et overordnet tema, klarer du
     å gjette hva det er? Som før lover jeg at det ikke kommer noen julesanger i
     denne kalenderen. Nytt for årets kalender er at det ikke bare kan komme
-    ukjente sanger. Send meg gjett på messenger, SMS, brevdue eller andre
-    kanaler du vet at jeg sjekker (ikke snap altså &#129334;). Kanskje er det
-    premie til vinneren. Gjettet må komme frem innen 24. desember for å telles
-    med!
+    ukjente sanger. Send meg gjett på Messenger, LinkedIn, SMS, brevdue eller
+    andre kanaler du vet at jeg sjekker (ikke snap altså &#129334;). Kanskje er
+    det premie til vinneren. Gjettet må komme frem innen 24. desember for å
+    telles med!
   </StyledP>
   <StyledP>Enjoy, hilsen fra Anne</StyledP>
   <a
