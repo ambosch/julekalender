@@ -24,11 +24,7 @@
     href="https://github.com/ambosch/julekalender"
     target="_blank"
     title="Take me to the source code!"
-    ><img
-      class="w-6"
-      alt="Go to GitHub repo"
-      src="src/assets/github-mark.svg"
-    /></a
+    ><img class="w-6" alt="Go to GitHub repo" src="github-mark.svg" /></a
   >
 </div>
 
