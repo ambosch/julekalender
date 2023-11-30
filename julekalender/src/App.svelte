@@ -2,10 +2,12 @@
   import svelteLogo from "./assets/svelte.svg";
   import viteLogo from "/vite.svg";
   import Counter from "./lib/Counter.svelte";
+  import TailwindCss from "./lib/TailwindCSS.svelte";
   import TopDescription from "./lib/TopDescription.svelte";
   import AboutTheSongs from "./lib/AboutTheSongs.svelte";
 </script>
 
+<TailwindCss />
 <main>
   <TopDescription />
   <!-- <div>
@@ -31,7 +33,7 @@
   </p>
 
   <p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p> -->
-  <div class="songs">
+  <div class="border border-indigo-900">
     <iframe
       title="spotify"
       style="border-radius:12px"
@@ -62,13 +64,13 @@
   .read-the-docs {
     color: #888;
   } */
-  .songs {
+  /* .songs {
     display: flex;
-    flex-direction: row;
+    flex-direction: columns;
   }
   iframe {
     min-width: 700px;
     width: 70%;
     max-width: 900px;
-  }
+  } */
 </style>

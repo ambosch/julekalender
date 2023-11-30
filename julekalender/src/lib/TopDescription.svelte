@@ -1,4 +1,4 @@
-<div class="header-container">
+<div class="">
   <h1>Anne sin julekalender 2023</h1>
   <p>
     Hver dag fra 1. desember til og med 24. desember kommer det ut en ny sang i
@@ -16,7 +16,7 @@
 </div>
 
 <style>
-  .header-container {
+  /* .header-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,5 +24,5 @@
   div.header-container > * {
     min-width: 700px;
     width: 50%;
-  }
+  } */
 </style>
