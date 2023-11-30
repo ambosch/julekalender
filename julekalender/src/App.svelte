@@ -8,7 +8,7 @@
 </script>
 
 <TailwindCss />
-<main>
+<main class="container flex flex-col gap-y-8">
   <TopDescription />
   <!-- <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
@@ -33,18 +33,19 @@
   </p>
 
   <p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p> -->
-  <div class="border border-indigo-900">
+  <div class="flex gap-x-4 h-screen">
     <iframe
+      class="flex-1"
+      width="100%"
+      height="100%"
       title="spotify"
       style="border-radius:12px"
       src="https://open.spotify.com/embed/playlist/7KcPJsVSVcQUZ1fCjpkLmw?utm_source=generator"
-      width="100%"
-      height="352"
       frameBorder="0"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
     ></iframe>
-    <AboutTheSongs />
+    <AboutTheSongs className="flex-1 border border-red-600" />
   </div>
 </main>
 
