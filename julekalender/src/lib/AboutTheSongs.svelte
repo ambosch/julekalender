@@ -7,7 +7,7 @@
 </script>
 
 <div
-  class="{className} bg-rose-400 rounded-xl flex flex-col gap-y-6 pb-6 overflow-y-auto sm:[overflow-anchor:top] h-fit max-h-screen"
+  class="{className} bg-rose-400 rounded-2xl flex flex-col gap-y-6 pb-6 overflow-y-auto sm:[overflow-anchor:top] h-fit max-h-screen"
 >
   <h2 class=" text-gray-900 pt-6 font-mono font-extrabold text-3xl">
     Litt snacks om de valgte låtene

@@ -45,7 +45,7 @@
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
     ></iframe>
-    <AboutTheSongs className="flex-1 border border-red-600" />
+    <AboutTheSongs className="flex-1" />
   </div>
 </main>
 
