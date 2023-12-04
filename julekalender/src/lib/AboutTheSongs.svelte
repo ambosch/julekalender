@@ -8,7 +8,9 @@
 <div
   class="{className} bg-rose-400 rounded-2xl flex flex-col gap-y-6 pb-6 overflow-y-auto sm:[overflow-anchor:top] h-fit max-h-screen"
 >
-  <h2 class=" text-gray-900 pt-6 font-mono font-extrabold text-3xl">
+  <h2
+    class=" text-gray-900 pt-6 px-2 xs:px-3 font-mono font-extrabold text-2xl xs:text-3xl"
+  >
     Litt snacks om de valgte låtene
   </h2>
   {#each Object.entries(descriptions) as [key_date, desc]}

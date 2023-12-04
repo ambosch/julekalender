@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config}*/
+const defaultTheme = require('tailwindcss/defaultTheme')
 const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '400px',
+        ...defaultTheme.screens
+      }
+    },
   },
 
   plugins: [],

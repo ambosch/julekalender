@@ -4,7 +4,7 @@
 
 <div class="lg:w-2/3 self-center">
   <h1
-    class="text-4xl md:text-5xl lg:text-7xl text-rose-400 font-extrabold font-mono mb-10 mt-10 tracking-tight leading-none"
+    class="text-3xl xs:text-4xl md:text-5xl lg:text-7xl text-rose-400 font-extrabold font-mono mb-10 mt-10 tracking-tight leading-none"
   >
     Anne sin julekalender 2023
   </h1>
