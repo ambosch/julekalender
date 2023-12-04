@@ -4,9 +4,15 @@
 </script>
 
 <div
-  class="rounded-xl bg-rose-100 mx-4 max-h-60 lg:max-h-80 overflow-y-auto lg:overflow-y-hidden hover:overflow-y-auto"
+  class="rounded-xl bg-rose-100 mx-4 h-60 md:h-72 lg:h-96 xl:h-80 2xl:h-72 overflow-y-auto lg:overflow-y-hidden hover:overflow-y-auto relative flex flex-col"
 >
-  <StyledP className="font-bold text-left pl-5">{day_nr}. desember</StyledP>
-  <!-- <StyledP className="text-left pl-5">Sangtittel - Artist</StyledP> -->
-  <StyledP className="text-left pl-5 pb-5 pr-5 "><slot /></StyledP>
+  <div class="w-full h-10 sticky top-[200px] z-20 md:hidden">
+    <div class="h-full bg-gradient-to-b from-transparent to-rose-100"></div>
+  </div>
+  <StyledP className="font-bold text-left pl-5 py-6 absolute z-10"
+    >{day_nr}. desember</StyledP
+  >
+  <StyledP className="text-left pl-5 pb-11 lg:pb-5 pr-6 absolute top-[76px]"
+    ><slot /></StyledP
+  >
 </div>
