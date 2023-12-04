@@ -1,7 +1,6 @@
 <script lang="ts">
   import data from "../SongDescriptions.json";
   import SongDescCard from "./SongDescCard.svelte";
-  import StyledP from "./StyledP.svelte";
   const descriptions = data.descriptions;
   export let className: string;
 </script>

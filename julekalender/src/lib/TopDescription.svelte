@@ -18,7 +18,7 @@
     det premie til vinneren. Gjettet må komme frem innen 24. desember for å
     telles med!
   </StyledP>
-  <StyledP>Enjoy, hilsen fra Anne</StyledP>
+  <StyledP className="my-6">Enjoy, hilsen fra Anne</StyledP>
   <a
     class="w-full flex justify-center"
     href="https://github.com/ambosch/julekalender"
@@ -27,15 +27,3 @@
     ><img class="w-6" alt="Go to GitHub repo" src="github-mark.svg" /></a
   >
 </div>
-
-<style>
-  /* .header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  div.header-container > * {
-    min-width: 700px;
-    width: 50%;
-  } */
-</style>
