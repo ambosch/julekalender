@@ -1,10 +1,8 @@
 <script lang="ts">
-  import TailwindCss from "./lib/TailwindCSS.svelte";
   import TopDescription from "./lib/TopDescription.svelte";
   import AboutTheSongs from "./lib/AboutTheSongs.svelte";
 </script>
 
-<TailwindCss />
 <main class="container flex flex-col gap-y-8">
   <TopDescription />
   <div
