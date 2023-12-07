@@ -1,7 +1,11 @@
 <script>
   import StyledP from "./StyledP.svelte";
+  import Modal from "./Modal.svelte";
+
+  let showModal = false;
 </script>
 
+<Modal bind:showModal />
 <div class="lg:w-2/3 self-center">
   <h1
     class="text-3xl xs:text-4xl md:text-5xl lg:text-7xl text-rose-400 font-extrabold font-mono mb-10 mt-10 tracking-tight leading-none"
@@ -19,11 +23,21 @@
     telles med!
   </StyledP>
   <StyledP className="my-6">Enjoy, hilsen fra Anne</StyledP>
-  <a
-    class="w-full flex justify-center"
-    href="https://github.com/ambosch/julekalender"
-    target="_blank"
-    title="Take me to the source code!"
-    ><img class="w-6" alt="Go to GitHub repo" src="github-mark.svg" /></a
-  >
+  <div class="w-full flex justify-center gap-x-4">
+    <a
+      class=""
+      href="https://github.com/ambosch/julekalender"
+      target="_blank"
+      title="Take me to the source code!"
+      ><img class="w-6" alt="Go to GitHub repo" src="github-mark.svg" /></a
+    >
+    <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+    <!-- svelte-ignore a11y-click-events-have-key-events-->
+    <img
+      class="w-7 hover:cursor-pointer"
+      alt="Easter egg"
+      src="Easter_egg.svg"
+      on:click={() => (showModal = true)}
+    />
+  </div>
 </div>
