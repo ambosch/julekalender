@@ -1,7 +1,14 @@
 <script lang="ts">
   import TopDescription from "./lib/TopDescription.svelte";
   import AboutTheSongs from "./lib/AboutTheSongs.svelte";
+  // import { modalOpen } from "./store";
 </script>
+
+<!-- <main
+  class="container flex flex-col gap-y-8 {$modalOpen
+    ? 'overflow-y-hidden'
+    : 'overflow-y-auto'}"
+> -->
 
 <main class="container flex flex-col gap-y-8">
   <TopDescription />
