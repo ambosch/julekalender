@@ -44,7 +44,7 @@
     >
       <img
         class="w-1/2 md:w-full rounded-2xl"
-        src="_dd1c2aa0-eb6f-494c-9ff7-96f0359ddd0d.jpg"
+        src="ripping.jpg"
         alt="Ripping the night sky."
       />
       <p class="text-slate-700 self-center">
@@ -68,7 +68,7 @@
     >
       <img
         class="w-1/2 md:w-full rounded-2xl"
-        src="_125c7784-5f90-4b93-907f-d8078c686060.jpg"
+        src="brain.jpg"
         alt="Brain on vacation."
       />
       <p class="text-slate-700 self-center">
